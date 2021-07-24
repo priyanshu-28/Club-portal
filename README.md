@@ -1,5 +1,11 @@
 # Club-portal
-This is a very simple website created using bootstrap and nodejs along with some css and javascript. It is created to maintain all the university clubs at one place. In the start, you are redirected to login page and you have to register yourself before doing login. AFter that, you will be reirected to main page of the webiste where you can either go to events page, contact us or logout, and along with that you can visit particular club's pages where you can see the events and register yourself. The register button will redirect you toa google form where you can fill your details and similarily by going to events page you can do the same.
+This is a very simple website created using bootstrap and nodejs along with some css and javascript. It is created to maintain all the university clubs at one place. In the start, you are redirected to login page and you have to register yourself before doing login. After that, you will be redirected to main page of the website where you can either go to events page, contact us or logout, and along with that you can visit particular club's pages where you can see the events and register yourself.
+
+The register button will redirect you to google form where you can fill your details and similarly by going to events page you can do the same.
+
+There is also Clubs’ page/user where clubs can add, edit or delete event as per convenience. Also, when you contact us, your name, email and message will be with us via email.
+
+
 
 There is also CLubs' page/user where clubs can add,edit or delete event as per convenience. 
 Also, when you contact us, your name,email and message will be with us via email.
