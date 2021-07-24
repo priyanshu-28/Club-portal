@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Login - Brand</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />      
+</head>
+
+<body class="bg-gradient-primary">
+    <link rel="stylesheet" href="js/script.js"/>
+    <link rel="stylesheet" href="js/app.js"/>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-12 col-xl-10">
+                <div class="card shadow-lg o-hidden border-0 my-5">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-flex">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h3 class="text-dark mb-4">Welcome Back!</h3>
+                                    </div>
+                                    <% if (messages.error) { %>
+                                        <%= messages.error %>
+                                      <% } %>
+                                    <form class="user" action="/login" method="POST">
+                                        <div class="mb-3"><input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address..." name="email" autofocus inputmode="email" /></div>
+                                        <div class="mb-3"><input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" name="password" autofocus minlength="4" maxlength="10" /></div>
+                                        <div class="mb-3">
+                                            <div class="custom-control custom-checkbox small">
+                                                <div class="form-check"><input type="checkbox" class="form-check-input custom-control-input" id="formCheck-1" /><label class="form-check-label custom-control-label" for="formCheck-1">Remember Me</label></div>
+                                            </div>
+                                        </div><button class="btn btn-primary active d-block btn-user w-100" type="submit">Login</button>
+                                    </form>
+                                    <div class="text-center"><a class="small" href="/register">Create an Account!</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
