@@ -5,10 +5,6 @@ The register button will redirect you to google form where you can fill your det
 
 There is also Clubs’ page/user where clubs can add, edit or delete event as per convenience. Also, when you contact us, your name, email and message will be with us via email.
 
-
-
-There is also CLubs' page/user where clubs can add,edit or delete event as per convenience. 
-Also, when you contact us, your name,email and message will be with us via email.
 ![Screenshot (541)](https://user-images.githubusercontent.com/76212148/126878927-b9c4b0aa-c393-4044-8cb2-7f001a6eab0b.png)
  ![Screenshot (542)](https://user-images.githubusercontent.com/76212148/126878931-7b0b35e2-a0dc-44d1-aa76-9f089a853504.png)
 ![Screenshot (532)](https://user-images.githubusercontent.com/76212148/126878949-a8db1326-3ea4-4688-85fc-e2702feed2d3.png)
